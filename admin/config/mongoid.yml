@@ -135,10 +135,3 @@ test:
         read:
           mode: :primary
         max_pool_size: 1
-
-production:
-  clients:
-    default:
-      database: admin_production
-      hosts:
-        - localhost:27017
